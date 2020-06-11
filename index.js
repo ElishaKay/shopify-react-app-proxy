@@ -67,7 +67,7 @@ mongodb.MongoClient.connect(url, (err, db) => {
   app.get('/', (req, res, next) => {
     req.messages.find({}, {sort: {_id: -1}}).toArray((err, docs) => {
       if (err) return next(err)
-      res.render('index', {
+      res.set('Content-Type', 'application/liquid').render('index', {
         header: ReactDOMServer.renderToString(Header()),
         footer: ReactDOMServer.renderToString(Footer()),
         messageBoard: ReactDOMServer.renderToString(MessageBoard({messages: docs})),
