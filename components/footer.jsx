@@ -6,7 +6,7 @@ module.exports = Footer = (props)=>{
       <hr />
       <div className="row-fluid">
         <div className="span12">
-          <div>React Quickly by Azat (<a href="http://twitter.com/azat_co" target="_blank">@azat_co</a>)</div>
+          <div>Share your product insights with the community.</div>
         </div>
       </div>
     </div>

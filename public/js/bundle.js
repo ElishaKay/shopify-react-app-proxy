@@ -10185,13 +10185,7 @@ module.exports = Footer = props => {
         React.createElement(
           "div",
           null,
-          "React Quickly by Azat (",
-          React.createElement(
-            "a",
-            { href: "http://twitter.com/azat_co", target: "_blank" },
-            "@azat_co"
-          ),
-          ")"
+          "Share your product insights with the community."
         )
       )
     )
