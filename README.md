@@ -1,9 +1,8 @@
 To run the project (you need MongoDB as well- `$ mongod`):
 
 ```
-$ npm install -g gulp
 $ npm install
-$ gulp
+$ npm start
 ```
 
 Open at <localhost:3000>

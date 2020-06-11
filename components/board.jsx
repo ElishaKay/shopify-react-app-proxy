@@ -2,6 +2,7 @@ const React = require('react')
 const ReactDOM = require('react-dom')
 const request = require('axios')
 
+// if the site is not getting served via proxy
 // const url = 'https://3b8ace36c19e.ngrok.io/messages'
 
 // works with proxy 

@@ -10011,6 +10011,7 @@ const React = __webpack_require__(26);
 const ReactDOM = __webpack_require__(52);
 const request = __webpack_require__(89);
 
+// if the site is not getting served via proxy
 // const url = 'https://3b8ace36c19e.ngrok.io/messages'
 
 // works with proxy 

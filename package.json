@@ -27,7 +27,6 @@
     "errorhandler": "1.4.1",
     "express": "4.13.1",
     "express-validator": "2.13.0",
-    "gulp": "^4.0.2",
     "hbs": "4.0.0",
     "mongodb": "2.2.25",
     "morgan": "1.6.1",
